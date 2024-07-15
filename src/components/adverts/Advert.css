@@ -1,0 +1,106 @@
+.advert {
+    width: auto;
+    background: #018096;
+    height: 5rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.35);
+    cursor: pointer;
+    border-radius: 0.3rem;
+    margin:5px 0 5px 0;
+}
+.advert:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 15px 5px rgb(0, 0, 0, 0.55);
+}
+
+.banner_image {
+    height: auto;
+    flex: 1;
+}
+.banner_image > img {
+    height: 5rem;
+    width: 10rem;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 0 2em 2em 0/0 3em 3em 0;
+    box-shadow: 6px 10px 1px 6px #00455e;
+}
+.advert .banner_text {
+    height: 5em;
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: 1s all linear;
+    padding: 5px 0 5px 0;
+}
+.banner_text .tx-left {
+    flex: 3;
+}
+.banner_text h4 {
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+}
+.banner_text p {
+    color: antiquewhite;
+    font-size: 13px;
+}
+.banner_text .tx-right {
+    padding-top:15px;
+    margin-left: 1px;
+    margin-right: 2px;
+    flex: 1;
+}
+.tx-right button {
+    border-radius: 2px;
+    width: auto;
+    background: #fdfbfb;
+    padding: 5px 5px;
+}
+.tx-right button a {
+    color: #026269;    
+    font-size: 1rem;
+    font-weight: 900;
+}
+.tx-right button:hover {
+    background: #d3d3d3;
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner_image {
+        width: 6rem;
+    }
+    .banner_image > img {
+        width: 6rem;
+    }
+    .banner_text h4 {
+        font-size: 13px;
+    }   
+    .tx-right button a {
+        font-size: 0.8rem;
+    } 
+}
+
+@media screen and (max-width: 560px) {
+    .banner_image > img {
+        width: 4rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    
+    .banner_text .tx-right {
+        padding-top:8px;
+    }
+    .tx-right button {
+        border-radius: 50%;
+        height: 55px;
+        width: 55px;
+        background: #fdfbfb;
+
+    }
+}

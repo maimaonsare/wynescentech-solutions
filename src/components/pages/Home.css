@@ -1,0 +1,331 @@
+.home {
+    display: flex;
+}
+/*left section of the home page */
+
+.home .home_left {
+    flex: 1;
+    padding: 2px;
+}
+.home_left .quick_about {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    background-image: url(../../img/bg_sm.PNG);
+  /* these will reset other properties, like background-position, but it does know what you mean 
+  background-color: red;
+  background-image:
+    radial-gradient(
+      circle at top right,
+      yellow,
+      #f06d06 50%
+    );
+*/
+}
+.quick_about h3 {
+    color: #fff;
+    width: 90%;
+    font-size: 1rem;
+    padding: 5px 5px 15px 3px;
+    background-color: rgb(1, 45, 83);
+  background-image:
+    radial-gradient(
+      circle at top right,
+      rgb(173, 172, 169),
+      #024a65 50%
+    );
+    border-top: 3px solid #df0707;
+    border-bottom-right-radius: 55px 95%;
+}
+.quick_about .service {
+    background-image: url(../../img/bg_sm.PNG);
+    padding-inline-start: 5px;
+}
+
+.quick_about .service h4 {
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.quick_about .service h4 span {
+    color: #faed00;
+}
+.quick_about .service .service_descr {
+    margin-left: 5px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 0.9rem;
+    padding-left: 3px;
+    border-left: 4px solid #000;
+    font-weight: 600;
+}
+.quick_about .service .far_left {
+    background-color: #fbfbfb;
+    margin: 15px 0 10px -5px;
+    width: fit-content;
+    padding: 4px 10px 4px 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px ;
+    box-shadow: 0 4px 4px #0000006a;
+    font-size: 1.1rem;
+    display: flex;
+}
+.service .far_left .shopping_cart {
+    position: relative;
+}
+.shopping_cart div {
+    background: #fa8b02;
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: -12px;
+    box-shadow: 0 0 2px 2px #faed00;
+    z-index: 1;
+}
+.shopping_cart i {
+    color: #fff;
+    font-size: 1.4rem;
+}
+.far_left h5 {
+    font-size: 1.1rem;
+    padding-left: 45px;
+}
+ul.service_list {
+    padding: 5px 2px 5px 10px;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+}
+ul.service_list li {
+    color: #e6e4e4;
+    font-weight: 800;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+ul.service_list li:hover {
+    transform: scale(1.05);
+}
+ul.service_list i {
+    padding-right: 2px;
+    color: #000;
+    font-size: 0.8rem;
+}
+/*home right section */
+.home .home_right {
+    flex: 2;
+    padding: 2px;
+}
+
+.web_packages {
+    padding-left: 10px;
+    background-image: url(../../img/bg.PNG);
+    margin-top: 10px;
+}
+.home_right .web_packages h1 {
+    font-size: 1rem;
+    border-bottom: 1px solid #d2d0d0;
+    color: blue;
+}
+
+.basic {
+    border-bottom: 1px solid #c0bfbf;
+}
+.basic .contents {
+    display: flex;
+}
+.basic .contents h3 {
+    font-size: 1rem;
+    color: #07026d;
+    font-weight: 700;
+    padding-bottom: 3px;
+}
+.basic .contents h4 {
+    font-size: 0.9rem;
+}
+.contents .features {
+    padding: 0 5px 0 10px;
+    flex: 2;
+}
+.features ul li {
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+}
+.features ul li i {
+    color: #a70606;
+    font-size: 0.8rem;
+    padding-right: 4px;
+}
+.features .disclaimer {
+    padding-top: 5px;
+    font-size: 0.7rem;
+}
+.disclaimer span {
+    font-weight: 900;
+    color: #df0707;
+}
+/* Ongoing cost section */ 
+.cost_advert {
+    flex: 3;
+    display: flex;
+}
+.variable_cost {
+    padding-left: 15px;
+    flex: 2;
+}
+.variable_cost ul.costs {
+    padding: 2px 0 0 5px;
+}
+.variable_cost ul.costs li {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+ul.costs li i {
+    font-size: 0.7rem;
+    color: #a70606;
+    padding-right: 3px;
+}
+ul.costs li p {
+    font-size: 0.8rem;
+    color: rgb(105, 105, 104);
+}
+
+/* prcining banner */
+.basic .pricing {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background: #3cadce;
+    background-image: url("../../img/engine.jpg");
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    max-width: 180px;
+    height: fit-content;
+    margin-bottom: 2px;
+    flex: 1;
+}
+.pricing .price_target {
+    padding: 14px;
+}
+.pricing h4 {
+    margin: 0;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.pricing .price_descr {
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.45;
+}
+.pricing .price_descr span {
+    font-weight: 900;
+    color: #e9e8e6;
+}
+.pricing .order {
+    display: block;
+    padding: 10px 0;
+    border-radius: 0 0 2px 2px;
+    font-size: 13px;
+    background: #255571;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    transition: background 0.5s ease;
+}
+.pricing .order:hover {
+    background: #f29e02;
+}
+
+/*Banner section */
+.banner {
+    width: 100%;
+}
+/* Advanced websites section */
+.advanced_websites {
+    background-color: #fff;
+  background-image:
+    radial-gradient(
+      circle at top right,
+      rgb(253, 253, 248),
+      #fff 50%
+    );
+    margin-top: 10px;
+    border-top: 3px solid #f1f1f38b;
+}
+
+/*Ongoing cost table */
+.ongoing_cost {
+    background: #fff;
+    margin-top: 10px;
+    border-top: 2px solid #a70606;
+}
+@media screen and (max-width: 768px) {
+    .home .home_left {
+        flex: 2;
+    } 
+    .home .home_right {
+        flex: 3;
+    }
+    .basic .contents {
+        flex-direction: column;
+    }
+    .contents .features {
+        padding: 0 5px 0 5px;
+        flex: 1;
+    }
+    .variable_cost {
+        padding: 14px 5px 12px 5px;
+        flex: 1;
+    }
+    .basic .pricing {
+        margin-top: 5px;
+    }
+    .pricing .price_target {
+        padding: 10px;
+    }
+    .pricing .order {
+        padding: 8px 0;
+    }
+}
+@media screen and (max-width: 560px) {
+    .home {
+        flex-direction: column;
+    }
+    .home .home_left {
+        flex: 1;
+    } 
+    .home .home_right {
+        flex: 1;
+    }
+    .web_packages {
+        padding-left: 0;
+    }
+    ul.service_list {
+        display: flex;
+        flex-direction: column;
+    }
+    ul.service_list li:hover {
+        transform:scaleY(1.04);
+    }
+    .banner {
+        width: auto;
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .quick_about .service .far_left {
+        margin: 15px 0 10px -4.5px;
+    }
+    .home .home_left {
+        width: 97.5%;
+    } 
+    .home .home_right {
+        width: 97.5%;
+    }
+}

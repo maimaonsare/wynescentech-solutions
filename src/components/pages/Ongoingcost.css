@@ -1,0 +1,28 @@
+.recurrent_cost {
+    padding: 5px;
+}
+.recurrent_cost h1 {
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+}
+.recurrent_cost p {
+    font-size: 0.9rem;
+}
+.cost_table {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background: #f0efef7a;
+    margin-bottom: 10px;
+}
+.cost_table tr th {
+    text-align:start;
+    border-bottom: 1px solid #b7b4b4;
+    font-size: 0.9rem;
+}
+.cost_table tr td {
+    border-bottom: #fff;
+    padding-bottom: 5px;
+    color: rgb(1, 58, 58);
+    font-size: 0.8rem;
+}

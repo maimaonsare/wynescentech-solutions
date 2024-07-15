@@ -1,0 +1,131 @@
+.premium_packages h1 {
+    font-size: 1.2rem;
+    border-bottom: 1px dotted #f42a02;
+    padding: 5px 0 5px 5px;
+}
+.premium_packages p {
+    padding: 5px;
+    font-size: 1rem;
+}
+.the_packages {
+    padding: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 5px;
+}
+.package_name {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    box-shadow: 0 0 3px 3px#bfbfbf61;
+    border: none;
+    border-radius: 2px;
+}
+.package_name .title h3 {
+    font-size: 1rem;
+    padding: 5px 1px 2px 5px;
+}
+.package_name .title .underline {
+    width: auto;
+    display: flex;
+    margin-left: 5px;
+    width: 60%;
+}
+.title .underline .tl {
+    border: 3px solid #f42a02;
+    width: 20%;
+}
+.title .underline .tr {
+    border: 3px solid #110156;
+    width: 80%;
+}
+.the_packages .items {
+    padding: 5px 0 5px 5px;
+}
+.the_packages .items h4 {
+    font-size: 1rem;
+    color: #f42a02;
+}
+.the_packages .items .pkg_list {
+    padding-top: 5px;
+}
+.pkg_list li {
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+}
+.pkg_list li i {
+    font-size: 0.8rem;
+    padding: 0 3px 0 3px;
+    color: #f42a02;
+}
+
+.business {
+    background-color: #ededed;
+  background-image:
+    radial-gradient(
+      circle at bottom right,
+      rgba(160, 251, 139, 0.664),
+      #fff 60%
+    );
+}
+.ecommerce {
+    background-color: #ededed;
+  background-image:
+    radial-gradient(
+      circle at bottom right,
+      rgba(249, 151, 46, 0.664),
+      #fff 60%
+    );
+}
+.ecommerce .title h3 {
+    color: #d57603;
+}
+.corporate {
+    background-color: #ededed;
+  background-image:
+    radial-gradient(
+      circle at bottom right,
+      rgba(123, 171, 254, 0.549),
+      #fff 60%
+    );
+}
+.corporate .title h3 {
+    color: #025fb5;
+}
+
+/*subscribe go section */
+.subcribe_go {
+    text-align: center;
+    justify-content: center;
+    background: #012e58;
+    padding: 5px 3px 5px 3px;
+    width: fit-content;
+    float: right;
+    margin-right: 4px;
+    margin-bottom: 3px;
+    border-radius: 2px;
+}
+.subcribe_go a {
+    color: #ededed;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+.subcribe_go a:hover {
+    color: #d57603;
+}
+.subcribe_go a span {
+    margin-right: 3px;
+}
+@media screen and (max-width: 480px) {
+    .package_name {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+}
